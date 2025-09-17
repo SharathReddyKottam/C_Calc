@@ -1,4 +1,4 @@
-# 🧮 C_Calculator
+# 🧮 Calculator
 
 A beginner-friendly **calculator project written in C**.  
 Built as a learning project to practice C fundamentals like loops, conditionals, and functions.
@@ -13,8 +13,8 @@ Built as a learning project to practice C fundamentals like loops, conditionals,
 - Runs in a loop until user exits  
 
 ---
-```
 ## 📂 Project Structure
+```
 C_Calculator/
 ├── Calc/ # main project folder
 │ ├── src/ # source code
@@ -27,13 +27,15 @@ C_Calculator/
 ---
 
 ## 🚀 Quick Start
+```
 Clone the repo and navigate into the project:
 git clone https://github.com/SharathReddyKottam/C_Calculator.git
 cd C_Calculator/Calc
-
----
 ```
+---
+
 ## 📖 Example Run
+```
 ===== Simple Calculator =====
 
 Addition
@@ -55,10 +57,12 @@ Result: 8.00
 ```
 ---
 ## 📝 Notes
+```
 This project is part of my practice while learning **C and Git**.  
 It demonstrates:
 - C programming fundamentals  
 - Clean project structure  
 - Use of `Makefile` for builds  
-- Git/GitHub workflow  
+- Git/GitHub workflow 
+``` 
 ---
