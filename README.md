@@ -15,6 +15,7 @@ This project demonstrates how simple operations can be implemented in C while pr
 ---
 
 ## 📖 Example Run
+```
 ===== Simple Calculator =====
 
 Addition
@@ -34,16 +35,13 @@ Exit
 Enter your choice: 1
 Enter two numbers: 5 3
 Result: 8.00
-
-yaml
-Copy code
-
+```
 ---
 
 ## 🚀 Try It Out
+```
 git clone https://github.com/SharathReddyKottam/C_Calculator.git
 cd C_Calculator/Calc
 make run
-
-yaml
-Copy code
+```
+---
