@@ -1,80 +1,33 @@
-# 🧮 C_Calc
+# 🧮 Calculator – Developer Guide
 
-A beginner-friendly **calculator project written in C**.  
-Built as a learning project to practice C fundamentals like loops, conditionals, and functions.
-
----
-
-## ✨ Features
-- Addition, Subtraction, Multiplication, Division  
-- Power (x^y)  
-- Factorial  
-- Input validation (invalid choice, division by zero)  
-- Runs in a loop until user exits  
+This folder contains the source code and build files for the **C_Calculator** project.  
+It’s structured for clean compilation and easy extension.
 
 ---
 
-## 📂 Project Structure
-C_Calc/
-├── Calc/ # main project folder
-│ ├── src/ # source code
-│ │ └── code.c
-│ ├── build/ # compiled output (ignored in git)
-│ ├── Makefile # build automation
-│ └── README.md # developer guide
-└── README.md # this file (project overview)
+## 📂 Folder Structure
+Calc/
+├── src/ # Source code (main: code.c)
+├── build/ # Compiled binaries (ignored in git)
+├── Makefile # Build automation
+└── README.md # This developer guide
 
-## 🚀 Quick Start
-Clone the repo and navigate into the project:
-bash
-git clone https://github.com/SharathReddyKottam/C_Calc.git
-cd C_Calc/Calc
+yaml
+Copy code
 
+---
 
+## ⚙️ Build Instructions
+### With Makefile
+make # compile
+make run # compile + run
+make clean # remove binaries
+
+shell
+Copy code
+
+### Without Makefile
 ```
-## Build & run:
-make run
-
-## 📖 Example
-===== Simple Calculator =====
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Power (x^y)
-6. Factorial
-0. Exit
-Enter your choice: 1
-Enter two numbers: 5 3
-Result: 8.00
-
-## Manual Compilation
-
-Without Makefile:
-
 gcc src/code.c -o calc
 ./calc
-
-## 🧮 Features
-
-Addition, Subtraction, Multiplication, Division
-
-Power (x^y)
-
-Factorial
-
-Runs in a loop until user exits
-
-Error handling for invalid input & division by zero
-
-
-## 📝 Notes for Developers
-
-All source files should be placed in src/.
-
-Compiled binaries are placed in build/.
-
-Makefile ensures consistent builds and cleanup.
-
-Extend the calculator by adding new cases in code.c and updating the menu.
-
+```

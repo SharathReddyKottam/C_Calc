@@ -1,7 +1,7 @@
 # 🧮 Calculator
 
 A beginner-friendly **calculator project written in C**.  
-Built as a learning project to practice C fundamentals like loops, conditionals, and functions.
+This project demonstrates how simple operations can be implemented in C while practicing Git and clean project structuring.
 
 ---
 
@@ -9,33 +9,12 @@ Built as a learning project to practice C fundamentals like loops, conditionals,
 - Addition, Subtraction, Multiplication, Division  
 - Power (x^y)  
 - Factorial  
-- Input validation (invalid choice, division by zero)  
+- Handles invalid input and division by zero  
 - Runs in a loop until user exits  
 
 ---
-## 📂 Project Structure
-```
-C_Calculator/
-├── Calc/ # main project folder
-│ ├── src/ # source code
-│ │ └── code.c
-│ ├── build/ # compiled output (ignored in git)
-│ ├── Makefile # build automation
-│ └── README.md # developer guide
-└── README.md # this file (project overview)
-```
----
-
-## 🚀 Quick Start
-```
-Clone the repo and navigate into the project:
-git clone https://github.com/SharathReddyKottam/C_Calculator.git
-cd C_Calculator/Calc
-```
----
 
 ## 📖 Example Run
-```
 ===== Simple Calculator =====
 
 Addition
@@ -51,18 +30,20 @@ Power (x^y)
 Factorial
 
 Exit
+
 Enter your choice: 1
 Enter two numbers: 5 3
 Result: 8.00
-```
+
+yaml
+Copy code
+
 ---
-## 📝 Notes
-```
-This project is part of my practice while learning **C and Git**.  
-It demonstrates:
-- C programming fundamentals  
-- Clean project structure  
-- Use of `Makefile` for builds  
-- Git/GitHub workflow 
-``` 
----
+
+## 🚀 Try It Out
+git clone https://github.com/SharathReddyKottam/C_Calculator.git
+cd C_Calculator/Calc
+make run
+
+yaml
+Copy code
