@@ -13,7 +13,7 @@ Built as a learning project to practice C fundamentals like loops, conditionals,
 - Runs in a loop until user exits  
 
 ---
-
+```
 ## 📂 Project Structure
 C_Calculator/
 ├── Calc/ # main project folder
@@ -23,7 +23,7 @@ C_Calculator/
 │ ├── Makefile # build automation
 │ └── README.md # developer guide
 └── README.md # this file (project overview)
-
+```
 yaml
 Copy code
 
