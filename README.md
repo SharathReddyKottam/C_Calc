@@ -24,9 +24,6 @@ C_Calculator/
 │ └── README.md # developer guide
 └── README.md # this file (project overview)
 ```
-yaml
-Copy code
-
 ---
 
 ## 🚀 Quick Start
@@ -34,24 +31,8 @@ Clone the repo and navigate into the project:
 git clone https://github.com/SharathReddyKottam/C_Calculator.git
 cd C_Calculator/Calc
 
-shell
-Copy code
-
-### Build & Run (with Makefile)
-make run
-
-shell
-Copy code
-
-### Manual Compilation (without Makefile)
-gcc src/code.c -o calc
-./calc
-
-yaml
-Copy code
-
 ---
-
+```
 ## 📖 Example Run
 ===== Simple Calculator =====
 
@@ -71,12 +52,8 @@ Exit
 Enter your choice: 1
 Enter two numbers: 5 3
 Result: 8.00
-
-yaml
-Copy code
-
+```
 ---
-
 ## 📝 Notes
 This project is part of my practice while learning **C and Git**.  
 It demonstrates:
@@ -84,5 +61,4 @@ It demonstrates:
 - Clean project structure  
 - Use of `Makefile` for builds  
 - Git/GitHub workflow  
-
 ---
